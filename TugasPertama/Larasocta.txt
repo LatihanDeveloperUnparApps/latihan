@@ -1,0 +1,12 @@
+Latihan Pertama 
+
+Buat lah file .txt dengan format dan masukan ke repostiory dengan format namaKalian.txt
+
+Nama: laras octa safira
+
+NPM: 2016730052
+
+Jurusan: Teknik Informatika
+
+Divisi: Publikasi
+
