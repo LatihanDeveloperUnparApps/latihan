@@ -1,4 +1,4 @@
-Latihan Pertama 
+Latihan Pertama 1
 
 Buat lah file .txt dengan format dan masukan ke repostiory dengan format namaKalian.txt
 
