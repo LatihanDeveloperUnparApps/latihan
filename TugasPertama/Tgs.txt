@@ -1,0 +1,12 @@
+Latihan Pertama 
+
+Buat lah file .txt dengan format dan masukan ke repostiory dengan format namaKalian.txt
+
+Nama: nama kalian
+
+NPM: npm kalian 
+
+Jurusan:
+
+Divisi:
+
