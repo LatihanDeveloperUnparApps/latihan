@@ -1,0 +1,12 @@
+Latihan Pertama 
+
+Buat lah file .txt dengan format dan masukan ke repostiory dengan format namaKalian.txt
+
+Nama: Timothy Lawrence
+
+NPM: 2016730064
+
+Jurusan: Teknik Informatika
+
+Divisi: Content Manager
+
