@@ -1,0 +1,7 @@
+Buat sebuah web yang menampilkan data biografi pribadi menggunakan html dan css
+
+Buatlah semenarik mungkin
+
+boleh melihat tutorial apapun tapi sambil dipelajari jangan cmn copas :)
+
+kumpulkan di folder TugasKedua
