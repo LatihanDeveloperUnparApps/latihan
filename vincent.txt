@@ -1,7 +1,0 @@
-Nama : Vincent Gunawan
-
-NPM : 2015730021
-
-Jurusan : IT
-
-Divisi : Development
