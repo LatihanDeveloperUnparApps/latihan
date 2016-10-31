@@ -4,4 +4,4 @@ Buatlah semenarik mungkin
 
 boleh melihat tutorial apapun tapi sambil dipelajari jangan cmn copas :)
 
-kumpulkan di folder TugasKedua
+kumpulkan di folder TugasKedua dengan format: nama.html paling lambat Kamis
