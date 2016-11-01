@@ -1,0 +1,11 @@
+Buat sebuah web yang menampilkan data biografi pribadi menggunakan html dan css
+-Nilai plus diberikan jika kalian bisa memasukan Foto kalian
+-membuat link ke page lain
+
+Buatlah semenarik mungkin
+
+boleh melihat tutorial apapun tapi sambil dipelajari jangan cmn copas :)
+
+kumpulkan di folder TugasKedua dengan format: nama.html paling lambat Kamis
+
+bila kalian memasukan foto kalian kumpulkan script html serta foto dalam satu file dan file diberi nama kalian
