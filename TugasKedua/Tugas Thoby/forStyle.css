@@ -1,0 +1,16 @@
+
+h1 {
+    color: black;
+    margin-left: 40px;
+    font-size: 250%;
+}
+body{
+background-color: orange;
+font-family:agency fb;
+}
+
+pre{
+  margin-left: 20px;
+  font-size: 120%;
+  color: brown;
+}
