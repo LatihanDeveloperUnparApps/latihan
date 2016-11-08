@@ -1,0 +1,15 @@
+body {
+    background-image: url("horde -1.jpg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+	text-align : center;
+	color : white;
+}
+p{
+	text-align : center;
+	color : white;
+	font-size : 30px;
+}
