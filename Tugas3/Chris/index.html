@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+    Made for educational only.
+    This image are not owned by me, or these repo holder.
+    I Googled it, contact me if you think the image shouldn't be here.
+    
+    @author Gunawan Christianto
+ -->
+<html>
+
+<head>
+    <title>Toko Roti Mantab Jiwa</title>
+    <link href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-responsive.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-schemes.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-rtl.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/css/metro-icons.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/olton/Metro-UI-CSS/master/build/js/metro.min.js"></script>
+    <!-- Data loader -->
+    <script src="./assets/data.js"></script>
+    <script src="./assets/vendor.js"></script>
+    
+</head>
+
+<body>
+    <div class="app-bar fixed-top green">
+        <div class="container">
+            <div class="app-bar-element">TR<b>MJ</b></div>
+            <span class="app-bar-divider"></span>
+            <a class="app-bar-element" href="index.html">Home</a>
+            <a class="app-bar-element" href="gallery.html">Gallery</a>
+            <a class="app-bar-element" href="about.html">About us</a>
+        </div>
+    </div>
+    <div style="height: 3.125rem"></div>
+    <div class="carousel" data-role="carousel" data-stop="false" data-controls="false" data-markers="false" style="height:400px" data-effect-func="easeOutCubic">
+        <div class="slide">
+            <img src="assets/images/bakery-3.jpg" data-role="fitImage" data-format="fill"/>
+        </div>
+        <div class="slide">
+            <img src="assets/images/cupcakes.jpg" data-role="fitImage" data-format="fill"/>
+        </div>
+        <div class="slide">
+            <img src="assets/images/san-francisco-Jane-Pastries-BAKERY1015.jpg" data-role="fitImage" data-format="fill"/>
+        </div>
+    </div>
+    <div class="bg-orange">
+        <div class="container padding20 align-center">
+            <h1 class="fg-white">TOKO ROTI MANTAB JIWA</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="grid">
+            <div class="row cells1">
+                <div class="cell">
+                    <h3>6 Roti paling dicari sepanjang dasawarsa</h3>
+                    <section name="product" id="terkenal1">
+                        <script>
+                            $(document).ready(function(e){
+                                var terkenal = kekesed_data.shuffle().slice(0,6);
+                                terkenal.map(function(data,i){
+                                    $("#terkenal1").append(buildTile(data));
+                                });
+                            });
+                        </script>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-darkRed">
+        <div class="container" style="margin-top:80px">
+            <div class="grid">
+                <div class="row cells5 fg-white" style="margin-top:50px">
+                    <div class="cell align-right padding20 colspan3 offset1" style="font-size:37px">
+                        <p><b>Belanja</b> sekarang!<br><small>Mumpung nggak gratis!</small></p>
+                        <a href="gallery.html" class="button bg-orange fg-white ">Lihat Galeri</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="grid">
+            <div class="row cells2 align-center" style="margin-top:80px">
+                <div class="cell">
+                    <h3>Dibuat dengan MANTAB</h3>
+                    <p style="line-height:37px">Dengan yakin dan ketelatenan yang didukung oleh para ahli dari leluhur kami di dunia Wombat, kami membuat roti roti ini dengan penuh keyakinan dan kemantaban.</p>
+                </div>
+                <div class="cell">
+                    <h3>Dibuat dengan sepenuh JIWA</h3>
+                    <p style="line-height:37px">Produk kami selalu dibuat dengan sepenuh jiwa dengan telaten dan kesabaran.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-grayDark">
+        <div class="container" style="margin-top:150px">
+            <div class="grid no-margin">
+                <div class="row cells1 no-margin">
+                    <div class="cell padding20 fg-white align-center">
+                        <small>Copyright &copy;6102 Toko Roti Matab Jiwa. No rights reserved.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
